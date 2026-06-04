@@ -1,0 +1,27 @@
+{
+  "appId": "com.voltpilot.app",
+  "appName": "VoltPilot",
+  "webDir": "src",
+  "server": {
+    "androidScheme": "https",
+    "cleartext": false
+  },
+  "android": {
+    "backgroundColor": "#0a0c0f",
+    "allowMixedContent": false,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  },
+  "plugins": {
+    "StatusBar": {
+      "style": "Dark",
+      "backgroundColor": "#0a0c0f",
+      "overlaysWebView": false
+    },
+    "SplashScreen": {
+      "launchShowDuration": 1000,
+      "backgroundColor": "#0a0c0f",
+      "showSpinner": false
+    }
+  }
+}
